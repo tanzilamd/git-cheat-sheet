@@ -11,3 +11,13 @@ $ git config --global user.name "[name]"
 $ git config --global user.email "[email address]"
 ```
 
+### রিপোজিটরি তৈরি
+#### নতুন রিপোসিটোরি শুরু অথবা একটি বিদ্যমান URL থেকে শুরু করুন।
+###### নির্দিষ্ট নাম দিয়ে একটি নতুন রিপোসিটোরি তৈরি করুন।
+```
+$ git init [project-name]
+```
+###### একটি repository এবং তার সম্পূর্ণ সংস্করণ ইতিহাস ডাউনলোড করুন।
+```
+$ git clone [url]
+``` 
