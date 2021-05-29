@@ -99,6 +99,21 @@ $ git rm --cached [file]
 $ git mv [file-original] [file-renamed]
 
 
+### ট্র্যাকিং দমন
+#### অস্থায়ী ফাইল এবং পাথ বাদ দিন
+###### A text file named ```.gitignore``` suppresses accidental versioning of files and paths matching the specified patterns
+```
+*.log
+build/
+temp-*
+```
+###### এই প্রকল্পে সব উপেক্ষিত ফাইলের তালিকা তৈরি করুন
+```
+$ git ls-files --others --ignored --exclude-standard
+```
+
+
+
 
 
 ### সিঙ্ক্রোনাইজড পরিবর্তনগুলি
