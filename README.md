@@ -107,6 +107,7 @@ $ git mv [file-original] [file-renamed]
 build/
 temp-*
 ```
+
 ###### এই প্রকল্পে সব উপেক্ষিত ফাইলের তালিকা তৈরি করুন
 ```
 $ git ls-files --others --ignored --exclude-standard
