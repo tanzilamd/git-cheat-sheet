@@ -75,7 +75,7 @@ $ git branch -d [branch-name]
 
 ### কমিট রিডো করা
 #### ভুল এবংক্রাফট প্রতিস্থাপনের ইতিহাস মুছুন
-###### 
+###### commit এর পুর্বে locally history remove করুন
 ```
 $ git reset [commit]
 ```
